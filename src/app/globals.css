@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainlayout{
+  display: grid;
+  grid-template-columns: .6fr 3fr;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+.mainlayout>div{
+  border: 1px solid red;
+}
